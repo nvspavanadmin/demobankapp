@@ -7,12 +7,10 @@ pipeline {
                 echo 'checkout stage.....'
             }
         }
-    }
-} 
-    stages {
-        stage('checkin') {
+        stage('build') {
             steps {
-                echo 'checkout stage.....'
+                echo 'build stage.....'
             }
         }
     }
+}
