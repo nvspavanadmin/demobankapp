@@ -12,11 +12,6 @@ pipeline {
                 echo 'build stage.....'
             }
         }
-        stage('build') {
-            steps {
-                echo 'build stage.....'
-            }
-        }
         stage('test') {
             steps {
                 echo 'unit-test.....'
