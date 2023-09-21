@@ -8,4 +8,12 @@ pipeline {
             }
         }
     }
+} 
+    stages {
+        stage('checkin') {
+            steps {
+                echo 'checkout stage.....'
+            }
+        }
+    }
 }
