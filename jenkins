@@ -17,6 +17,12 @@ pipeline {
                 echo 'unit-test.....'
             }
         }
+        stage('code') {
+            steps {
+                echo 'code analysis.....'
+            }
+        }
     }
 }
+
 
